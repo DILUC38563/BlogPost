@@ -1,0 +1,80 @@
+.setting {
+  display: flex;
+  margin-left: 10px;
+}
+.settingWrapper {
+  flex: 9;
+}
+.settingTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Vujahday Script", cursive;
+}
+.settingUpdateTitle {
+  font-size: 40px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  color: rgb(109, 182, 35);
+}
+.settingDeleteTitle {
+  font-size: 25px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  color: red;
+  cursor: pointer;
+}
+.settingForm {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 10px;
+}
+.settingForm > label{
+    margin:20px 0 10px 0;
+    font-size: 30px;
+}
+.settingForm > input{
+    font-size: 20px;
+    padding: 10px;
+    height: 40px;
+    border: none;
+    background-color: rgb(245, 237, 237);
+    border-radius: 10px;
+}
+.settingForm >input:focus{
+    outline: none;
+}
+.settingForm >input::placeholder{
+    padding-left: 10px;
+    font-size: 20px;
+}
+.settingForm > button{
+    margin-top: 20px;
+    width: 100px;
+    height: 45px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(22, 174, 245);
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+.settingProfilePic {
+  margin: 10px 0;
+}
+.settingProfilePic > img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+.settingProfileIcon {
+  margin-left: 10px;
+  background-color: cadetblue;
+  color: white;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+}
+

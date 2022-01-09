@@ -1,0 +1,46 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 3;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #f7efefd7 ;
+    padding: 10px;
+}
+.sidebarImg{
+    width: 100%;
+    height: 75%;
+}
+.sidebarItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sidebarTitle{
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    font-family: 'Vujahday Script', cursive;
+    color: #222;
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+}
+.p {
+    padding: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.sidebarList{
+    
+    list-style: none;
+    margin-bottom: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+.sidebarListItem{
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
